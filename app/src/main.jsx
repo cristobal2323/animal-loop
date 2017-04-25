@@ -14,7 +14,7 @@ window.__myapp_container = document.getElementById('app')
 ReactDOM.render((
   <Router history={History}>
     <div>
-        <Route exact={true} path="/" component={Login}/>
+        <Route exact={true} path="/" component={Home}/>
         <Route path="/home" component={Home}/>
     </div>
   </Router>
