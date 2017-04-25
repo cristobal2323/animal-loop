@@ -4,7 +4,6 @@ import Env from '../../Config'
 class Logo extends React.Component {
   constructor() {
     super()
-
   }
   render() {
 	return (
