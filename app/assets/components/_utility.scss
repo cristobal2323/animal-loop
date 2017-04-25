@@ -51,13 +51,11 @@ $imagesPath: '/dist/images/';
 
 }
 
-
 $fontPoppinBold: 'poppinsbold';
 $fontPoppinLight: 'poppinslight';
 $fontPoppinMedium: 'poppinsmedium';
 $fontPoppinRegular: 'poppinsregular';
 $fontPoppinBold: 'poppinssemibold';
-
 
 /* -> Definiendo tamanos tipograficos <- */
 $fontMini : 11px;
@@ -90,52 +88,6 @@ $tipos : (
     humongous : $fontHumongous
 );
 
-
-/* -> Colores Sociales <- */
-$twitterColor : #55acee;
-$twitterColor_dark : darken( $twitterColor, 10%);
-$twitterColor_darker : darken( $twitterColor, 15%);
-$twitterColor_light : lighten( $twitterColor, 10%);
-$twitterColor_lighter : lighten( $twitterColor, 15%); 
-
-$facebookColor : #3b5998;
-$facebookColor_dark : darken( $facebookColor, 10%);
-$facebookColor_darker : darken( $facebookColor, 15%);
-$facebookColor_light : lighten( $facebookColor, 10%);
-$facebookColor_lighter : lighten( $facebookColor, 15%); 
-
-$googleColor : #df4a32;
-$googleColor_dark : darken( $googleColor, 10%);
-$googleColor_darker : darken( $googleColor, 15%);
-$googleColor_light : lighten( $googleColor, 10%);
-$googleColor_lighter : lighten( $googleColor, 15%); 
-
-$linkedInColor : #0077b5;
-$linkedInColor_dark : darken( $linkedInColor, 10%);
-$linkedInColor_darker : darken( $linkedInColor, 15%);
-$linkedInColor_light : lighten( $linkedInColor, 10%);
-$linkedInColor_lighter : lighten( $linkedInColor, 15%); 
-
-$issuuColor : #ee5226;
-$issuuColor_dark : darken( $issuuColor, 10%);
-$issuuColor_darker : darken( $issuuColor, 15%);
-$issuuColor_light : lighten( $issuuColor, 10%);
-$issuuColor_lighter : lighten( $issuuColor, 15%); 
-
-$youtubeColor : #de1d25;
-$youtubeColor_dark : darken( $youtubeColor, 10%);
-$youtubeColor_darker : darken( $youtubeColor, 15%);
-$youtubeColor_light : lighten( $youtubeColor, 10%);
-$youtubeColor_lighter : lighten( $youtubeColor, 15%);
-
-$instagramColor : #3a648d;
-$instagramColor_dark : darken( $instagramColor, 10%);
-$instagramColor_darker : darken( $instagramColor, 15%);
-$instagramColor_light : lighten( $instagramColor, 10%);
-$instagramColor_lighter : lighten( $instagramColor, 15%);
-
-$ok : #D8F6CE;
-$error : #F6CECE;
 /* -> genero un mapa de tamanos <- */
 $color_corporativo_darker : #2F3740;
 $color_corporativo_dark : #34404e; 
@@ -143,31 +95,6 @@ $color_corporativo_regular : #63707f;
 $color_corporativo_light : #535f6c;
 $color_corporativo_lighter : #f5f8fb; 
 $color_corporativo_lightest : #f5f8fb;
-
-$color_secundario_regular : #FFD34E; 
-$color_secundario_light: #FAD977;
-
-
-$color_abastecimiento : #A7C520;
-$color_produccion: #225378; 
-$color_sillas : #63707f; 
-$color_rochas : #2B808A;
-$color_rochas_hover: #3B929C;
-$color_despacho : #FFD34E; 
-$color_instalaciones : #DC3522;
-$color_integracion : #6CA1FC;
-$color_comercial : #DC9C76;
-$color_dam : #C77966;
-$color_gerencia : #74A588;
-$color_prevencion : #723147;
-$color_reclamos : #CC4452;
-$color_sistema : #FF9311;
-$color_desarrollo : #D64700;
-$color_actividad : #CC1E2C;
-$color_planificacion : #6ABFAF;
-
-$color_valido : #8FB259;
-$color_error : #DC3522;
 
 $negro : #000;
 $gris_darker : #333;
@@ -201,8 +128,6 @@ $colores : (
         fondo : $gris-fondo
     )
 );
-/* -> colores extras <- */
-
 
 /* -> transition comun <- */
 $transition : all 200ms ease;
@@ -328,38 +253,3 @@ $medias : (
         @content;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

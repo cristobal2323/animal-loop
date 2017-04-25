@@ -1,0 +1,61 @@
+/**** genericas ****/
+/**** genericas ****/
+/**** genericas ****/
+
+body{
+    font-family: $fontPoppinRegular;
+}
+
+/**** Module header ****/
+/**** Module header ****/
+/**** Module header ****/
+
+.module__header{
+    display: flex;
+    flex-wrap: nowrap;
+    border-bottom: solid 1px $gris;
+    .module__nav{
+        width: 200px;
+        text-align: center;
+        text-transform: uppercase;
+        h2{
+            display: inline-block;
+            font-weight: normal;
+            font-family: $fontPoppinLight;
+            font-size: $fontSmall;
+            padding: 1em;
+            &:before {
+                content: "\f0c9";
+                font-family: FontAwesome;
+                font-weight: normal;
+                display: inline-block;
+            }
+        }
+    }
+    .module__search{
+        width: 150px;
+        text-transform: uppercase;
+        border-left: solid 1px $gris;
+        h2{
+            display: inline-block;
+            font-weight: normal;
+            font-family: $fontPoppinLight;
+            font-size: $fontSmall;
+            padding: 1em;
+            &:before {
+                content: "\f002";
+                font-family: FontAwesome;
+                font-weight: normal;
+                display: inline-block;
+            }
+        }
+    }
+    .module__logo{
+        width: calc(100% - 700px);
+        padding-top: 10px;
+        text-align: center;
+    }
+    .module__user{
+        width: 350px;
+    }
+}
